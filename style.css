@@ -1,0 +1,197 @@
+/* 
+    Created on : 26-Oct-2013, 23:37:18
+    Author     : Dan Bennett
+    Website    : http://dan-bennett.me
+*/
+
+/* Form Style*/
+table.heading td {
+    font-size: 25px;
+}
+
+/*Logo*/
+
+#logo {
+background-image: url('images/logo.png');
+width: 440px;
+height: 140px;
+background-repeat: no-repeat;
+background-position: top;
+position: relative;
+display:block;
+content:' ';
+}
+
+/*Messages*/
+#submitted {
+    color: red;
+    font-size: 20px;
+    width:150px;
+	height:25px;
+	float:right;
+	position:absolute;
+	margin-left:810px;
+	margin-top:245px;
+}
+
+table.input td{
+    font-size:25px;
+}
+
+/* Grid Style*/
+th {
+	min-width:250px;
+}
+table.db-table { 
+    border-right:1px solid #ccc; 
+    border-bottom:1px solid #ccc; 
+    font-size:15px; 
+    max-width:100%;
+    word-wrap:break-word; 
+}
+table.db-table th {
+    background:#eee; 
+    padding:5px; 
+    border-left:1px solid #ccc; 
+    border-top:1px solid #ccc; 
+    font-size:20px; 
+    word-wrap:break-word; 
+}
+table.db-table td { 
+    padding:5px; 
+    border-left:1px solid #ccc; 
+    border-top:1px solid #ccc; 
+    font-size:20px;
+    mix-width:100px;
+    max-width:400px;
+    text-align:center;
+    word-wrap:break-word; 
+}
+table.db-table tr:hover,tr.alt:hover
+{
+    background: #f7dcdf!important;
+}
+table.pres-table {
+	text-align:center;
+	width:200px;
+}
+table.pres-table td {
+	border-left:1px solid #ccc; 
+    border-top:1px solid #ccc; 
+    border-right:1px solid #ccc; 
+    border-bottom:1px solid #ccc; 
+    }
+table.pres-table td:hover,td.alt:hover
+{
+    background: #f7dcdf!important;
+}
+
+/*Buttons on Index*/
+/*Main Content*/
+table.list { 
+	margin-left:auto;
+	margin-right:auto;
+    border-right:1px solid #fff; 
+    border-bottom:1px solid #fff; 
+    font-size:15px; 
+	width:50%;
+    word-wrap:break-word; 
+}
+table.list td { 
+    padding:5px; 
+    border-left:5px solid #fff; 
+    border-top:5px solid #fff;
+    border-right:5px solid #fff; 
+    border-bottom:5px solid #fff; 
+    font-size:20px;
+    min-width:200px;
+    max-width:400px;
+    height:50px;
+    text-align:center;
+    vertical-align:middle;
+    word-wrap:break-word; 
+}
+table.list:link td { 
+	display: block 
+}
+table.list td:hover {
+    background-color: #0066FF;
+    color:#fff;
+}
+table.list:hover td a:hover {
+	color:red;
+}
+
+/*Logout Button*/
+#logout {
+	width:100px;
+	height:20px;
+	vertical-align:middle;
+	float: right;
+	position:relative;
+	margin-right:10px;
+	margin-top:10px;
+}
+#logout a:hover{
+	background-color: #0066FF;
+	color: #fff;
+}
+
+/*Option buttons*/
+#option {
+}
+
+#option a:hover{
+	background-color: #0066FF;
+	color: #fff;
+}
+
+
+/*Body*/
+body {
+    font-family: HelveticaNeue-Light, HelveticaNeue, arial;          
+    margin:0;
+    padding:0;
+    text-align:center;
+    color:#000;
+}
+
+h2 {
+	background-color:#F2F2F2;
+}
+
+a:link {
+	color:#000000;
+	text-decoration:none;
+}      /* unvisited link */
+a:visited {
+	color:#000000;
+	text-decoration:none;
+}  /* visited link */
+a:hover {
+	color:#000000;
+	text-decoration:none;
+}  /* mouse over link */
+a:active {
+	color:#000000;
+	text-decoration:none;
+}  /* selected link */
+
+/*Playlist Form*/
+.plform {
+	text-align:center;
+	width:20%;
+	margin-top:20px;
+}
+
+/*Presenters Box*/
+#presenters {
+	float:left;
+	margin-left:300px;
+}
+
+/*Add Presenters*/
+#presenteradd {
+	float:right;
+	margin-right:300px;
+}
