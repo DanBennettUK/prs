@@ -28,7 +28,7 @@ CREATE TABLE IF NOT EXISTS `data` (
   `timeplayed` datetime NOT NULL,
   PRIMARY KEY (`id`),
   KEY `timeplayed` (`timeplayed`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=281 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
 
 
 -- --------------------------------------------------------
@@ -43,7 +43,7 @@ CREATE TABLE IF NOT EXISTS `login` (
   `password` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `id` (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
 
 --
 -- Dumping data for table `login`
@@ -64,7 +64,7 @@ CREATE TABLE IF NOT EXISTS `presenters` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `presenter` (`presenter`),
   UNIQUE KEY `id` (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=53 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
 
 
 -- --------------------------------------------------------
