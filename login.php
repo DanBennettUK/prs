@@ -20,9 +20,6 @@
 <form id="form1" name="form1" method="post" action="logincheck.php">
 	<table width="510" border="0" align="center">
 		<tr>
-			<td colspan="2">Login Form</td>
-		</tr>
-		<tr>
 			<td>Username:</td>
 			<td><input type="text" name="username" id="username" /></td>
 		</tr>

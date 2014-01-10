@@ -18,8 +18,29 @@ height: 140px;
 background-repeat: no-repeat;
 background-position: top;
 position: relative;
-display:block;
-content:' ';
+display: block;
+content: ' ';
+margin-top: 10px;
+}
+
+/*Input boxes*/
+input.inputpl {
+padding-left: 1px;
+border-style: solid;
+border-color: lightgrey;
+border-width: 1px;
+font-family: HelveticaNeue-Light, HelveticaNeue, arial;
+padding-left: 1px;
+font-size: 20px;
+width: 300px;
+}
+
+#inputpres {
+padding-left: 1px;
+font-family: HelveticaNeue-Light, HelveticaNeue, arial;
+padding-left: 1px;
+font-size: 20px;
+width: 300px;
 }
 
 /*Messages*/
@@ -30,8 +51,8 @@ content:' ';
 	height:25px;
 	float:right;
 	position:absolute;
-	margin-left:810px;
-	margin-top:245px;
+	margin-left:955px;
+	margin-top:255px;
 }
 
 table.input td{
@@ -135,6 +156,26 @@ table.list:hover td a:hover {
 #logout a:hover{
 	background-color: #0066FF;
 	color: #fff;
+}
+
+/*Export*/
+#export {
+	width:100px;
+	height:20px;
+	vertical-align:middle;
+	float: left;
+	position:relative;
+	margin-right:10px;
+	margin-top:10px;
+}
+#export a:hover{
+	background-color: #0066FF;
+	color: #fff;
+}
+
+table.export td:hover {
+    background-color: #0066FF;
+    color:#fff;
 }
 
 /*Option buttons*/
