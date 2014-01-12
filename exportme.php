@@ -21,9 +21,11 @@ include ("config.php");
 
 $table = "data";
 $filename = "Latest_PRS_Export_" . date("Y-m-d_H-i") . $presenter;
+header('Content-Encoding: UTF-8');
 header("Content-type: text/csv; charset=UTF-8");
 //header("Content-type: application/vnd.ms-excel");
 header("Content-Disposition: attachment; filename=" . $filename . ".csv");
+
 
 // connection
 
@@ -60,10 +62,10 @@ $contents = "Artist,Title,Presenter,Time Played\n";
 
 while ($row = mysql_fetch_array($user_query))
 	{
-	$contents.= $row['artist'] . ",";
-	$contents.= $row['title'] . ",";
-	$contents.= $row['presenter'] . ",";
-	$contents.= $row['timeplayed'] . "\n";
+	$contents.= "\"" . $row['artist'] . "\",";
+	$contents.= "\"" . $row['title'] . "\",";
+	$contents.= "\"" . $row['presenter'] . "\",";
+	$contents.= "\"" . $row['timeplayed'] . "\"\n";
 	}
 
 $contents_final = chr(255) . chr(254) . mb_convert_encoding($contents, "UTF-16LE", "UTF-8");

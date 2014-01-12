@@ -39,15 +39,14 @@ mysql_set_charset("utf8", $con);
 $user_query = mysql_query('SELECT * FROM '.$table.' ORDER BY id DESC');
 
 //While loop to fetch the records
-$contents = "artist,title,presenter,time played\n";
-while($row = mysql_fetch_array($user_query))
-{
-    $contents.=$row['artist'].",";
-    $contents.=$row['title'].",";
-    $contents.=$row['presenter'].",";
-    $contents.=$row['timeplayed']."\n";
-}
-
+$contents = "Artist,Title,Presenter,Time Played\n";
+while ($row = mysql_fetch_array($user_query))
+	{
+	$contents.= "\"" . $row['artist'] . "\",";
+	$contents.= "\"" . $row['title'] . "\",";
+	$contents.= "\"" . $row['presenter'] . "\",";
+	$contents.= "\"" . $row['timeplayed'] . "\"\n";
+	}
 $contents_final = chr(255).chr(254).mb_convert_encoding($contents, "UTF-16LE","UTF-8");
 print $contents_final;
 //Send back to admin page
