@@ -10,10 +10,10 @@
 //Fill in the correct information:
 
 //Database Host (e.g. localhost)
-$dbhost = 'localhost';
+$dbhost = '';
 //Database Username
-$dbuser = 'prs';
+$dbuser = '';
 //Database Password
-$dbpass = 'ez3BvdErqZ7NTjTf';
+$dbpass = '';
 //Database Name
-$db = 'prs';
+$db = '';

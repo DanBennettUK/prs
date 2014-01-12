@@ -13,11 +13,10 @@ $table = "data";
 $filename = "PRS_Export_" . date("Y-m-d_H-i") . ".csv";
 
 // if ( php_sapi_name() !== 'cli' ) {
-    // header("Content-type: text/csv; charset=UTF-8");
-    // header("Content-Disposition: attachment; filename=" . $filename . ".csv");
-    // readfile($filename);
+// header("Content-type: text/csv; charset=UTF-8");
+// header("Content-Disposition: attachment; filename=" . $filename . ".csv");
+// readfile($filename);
 // }
-
 // create a file pointer connected to the output stream
 
 $output = fopen("exports/$filename", 'w');
@@ -45,5 +44,7 @@ if ($rows === FALSE)
 // loop over the rows, outputting them
 
 while ($row = mysql_fetch_assoc($rows)) fputcsv($output, $row);
-//file_put_contents("exports/" . $filename, $output);
-//readfile("exports/'. $filename .'");
+
+// file_put_contents("exports/" . $filename, $output);
+// readfile("exports/'. $filename .'");
+

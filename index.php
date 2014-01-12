@@ -51,7 +51,7 @@ if (mysql_num_rows($result2))
 
 		$columncount++;
 
-		// set columncount to 3 per row
+		// When there's 3 columns, close the row.
 
 		if ($columncount == 3)
 			{

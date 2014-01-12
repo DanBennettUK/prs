@@ -13,12 +13,13 @@
 <?php
 include ("config.php");
 
-if (isset($_SERVER['HTTP_REFERER']))
-	{
+if (isset($_SERVER['HTTP_REFERER'])) {
 	$previous = $_SERVER['HTTP_REFERER'];
-	}
+}
+	
 
 // Set presenter get
+$presenter = "";
 
 if (empty($_REQUEST['presenter']))
 	{
@@ -43,14 +44,14 @@ if (isset($_POST['submit']))
 	if (!get_magic_quotes_gpc())
 		{
 		$artist = addslashes($_POST['artist']);
-		$title = addslashes($_POST['title']);
+		$title = addslashes($_POST['title']);		
 		}
 	  else
 		{
 		$artist = $_POST['artist'];
 		$title = $_POST['title'];
-		$presenter = $_POST['presenter'];
-		$timeplayed = $_POST['timeplayed'];
+		//$presenter = $_POST['presenter'];
+		//$timeplayed = $_POST['timeplayed'];
 		}
 
 	// $date = date(Now());
