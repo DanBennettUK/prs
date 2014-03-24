@@ -9,7 +9,7 @@ include ("config.php");
 ?>
 <html>
 	<head>
-	<title>NovaFM PRS Recording System</title>
+	<title>Radio PRS Recording System</title>
 		<LINK href="style.css" rel="stylesheet" type="text/css">
 	</head>
 	<body><div id="logout"><a href="admin.php">Admin Login</a></div><center>
@@ -63,9 +63,9 @@ if (mysql_num_rows($result2))
 	echo '</table><br />';
 	}
 
-?>	
-			
-			
+?>
+
+
 			</div>
 		</div>
 	</center></body>

@@ -34,7 +34,7 @@ echo $_SESSION["sess_username"] ?></h1>
 	<br /><br />
 	<div id="option"><a href="export.php">Export all data</a> (CSV)</div>
 	<br /><br />
-	<!-- 
+	<!--
 Export <form action="">
 <select name="exportpres">
 <option value="">All Presenters</option>
@@ -116,7 +116,7 @@ $_PHP_SELF ?>">
                     </tr>
                 </table>
             </form>
-            
+
             <?php
 
 // $presenter = "324";
@@ -171,10 +171,10 @@ if (isset($_POST['submit']))
 	}
 
 ?>
-	
+
 	<div id="changepass">
 <h4>Change Admin Password</h4>
-	
+
 	<form method="POST" action="changepass.php">
  <table>
  <tr>

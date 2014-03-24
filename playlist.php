@@ -10,14 +10,14 @@ include ("include.php");
 
 <html>
     <head>
-        <title>NovaFM PRS Recording System</title>
+        <title>Radio PRS Recording System</title>
         <LINK href="style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
     <center>
     <div id="logout">
 				<a href="index.php">Logout</a><p>
-				
+
 			</div>
 		<div id="export">
 			<?php
@@ -43,7 +43,7 @@ echo $presenter; ?></select></td>
                     </tr>
                     <tr>
                         <td width="100"> </td>
-                       
+
                         <td><input name="timeplayed" type="hidden" id="timeplayed" class="input"></td>
                     </tr>
                     <tr>
@@ -125,10 +125,10 @@ if (mysql_num_rows($result2))
 	echo "No Data. Get recording!";
 	}
 
-?>  
-     
+?>
+
 <!--    AMOUNT SELECTOR HERE!!!!!!!!!!
-  
+
 		<form method="post" action="<?php
 $_PHP_SELF ?>">
         <select name="numberofentries" id="numbertoshow" class="input">
@@ -139,8 +139,8 @@ $_PHP_SELF ?>">
         </select>
         <input name="submitnumberentries" type="submit" id="submit" value="Submit" class="input">
         </form>-->
-        
-        
+
+
     </center>
     </body>
 </html>

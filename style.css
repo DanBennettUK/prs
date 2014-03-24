@@ -63,30 +63,30 @@ table.input td{
 th {
 	min-width:250px;
 }
-table.db-table { 
-    border-right:1px solid #ccc; 
-    border-bottom:1px solid #ccc; 
-    font-size:15px; 
+table.db-table {
+    border-right:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    font-size:15px;
     max-width:100%;
-    word-wrap:break-word; 
+    word-wrap:break-word;
 }
 table.db-table th {
-    background:#eee; 
-    padding:5px; 
-    border-left:1px solid #ccc; 
-    border-top:1px solid #ccc; 
-    font-size:20px; 
-    word-wrap:break-word; 
+    background:#eee;
+    padding:5px;
+    border-left:1px solid #ccc;
+    border-top:1px solid #ccc;
+    font-size:20px;
+    word-wrap:break-word;
 }
-table.db-table td { 
-    padding:5px; 
-    border-left:1px solid #ccc; 
-    border-top:1px solid #ccc; 
+table.db-table td {
+    padding:5px;
+    border-left:1px solid #ccc;
+    border-top:1px solid #ccc;
     font-size:20px;
     mix-width:100px;
     max-width:400px;
     text-align:center;
-    word-wrap:break-word; 
+    word-wrap:break-word;
 }
 table.db-table tr:hover,tr.alt:hover
 {
@@ -97,10 +97,10 @@ table.pres-table {
 	width:200px;
 }
 table.pres-table td {
-	border-left:1px solid #ccc; 
-    border-top:1px solid #ccc; 
-    border-right:1px solid #ccc; 
-    border-bottom:1px solid #ccc; 
+	border-left:1px solid #ccc;
+    border-top:1px solid #ccc;
+    border-right:1px solid #ccc;
+    border-bottom:1px solid #ccc;
     }
 table.pres-table td:hover,td.alt:hover
 {
@@ -109,31 +109,31 @@ table.pres-table td:hover,td.alt:hover
 
 /*Buttons on Index*/
 /*Main Content*/
-table.list { 
+table.list {
 	margin-left:auto;
 	margin-right:auto;
-    border-right:1px solid #fff; 
-    border-bottom:1px solid #fff; 
-    font-size:15px; 
+    border-right:1px solid #fff;
+    border-bottom:1px solid #fff;
+    font-size:15px;
 	width:50%;
-    word-wrap:break-word; 
+    word-wrap:break-word;
 }
-table.list td { 
-    padding:5px; 
-    border-left:5px solid #fff; 
+table.list td {
+    padding:5px;
+    border-left:5px solid #fff;
     border-top:5px solid #fff;
-    border-right:5px solid #fff; 
-    border-bottom:5px solid #fff; 
+    border-right:5px solid #fff;
+    border-bottom:5px solid #fff;
     font-size:20px;
     min-width:200px;
     max-width:400px;
     height:50px;
     text-align:center;
     vertical-align:middle;
-    word-wrap:break-word; 
+    word-wrap:break-word;
 }
-table.list:link td { 
-	display: block 
+table.list:link td {
+	display: block
 }
 table.list td:hover {
     background-color: #0066FF;
@@ -190,7 +190,7 @@ table.export td:hover {
 
 /*Body*/
 body {
-    font-family: HelveticaNeue-Light, HelveticaNeue, arial;          
+    font-family: HelveticaNeue-Light, HelveticaNeue, arial;
     margin:0;
     padding:0;
     text-align:center;

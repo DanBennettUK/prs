@@ -47,4 +47,3 @@ while ($row = mysql_fetch_assoc($rows)) fputcsv($output, $row);
 
 // file_put_contents("exports/" . $filename, $output);
 // readfile("exports/'. $filename .'");
-
