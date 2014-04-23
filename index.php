@@ -17,7 +17,6 @@ include ("config.php");
 		<div id="content">
 		<h2>Presenters:</h2>
 	<?php
-
 // PRESENTERS HERE
 
 /* connect to the db */
